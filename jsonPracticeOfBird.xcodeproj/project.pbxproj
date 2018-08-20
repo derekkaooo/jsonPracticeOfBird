@@ -12,6 +12,8 @@
 		654C22772123AF87007E8FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654C22752123AF87007E8FB8 /* Main.storyboard */; };
 		654C22792123AF89007E8FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654C22782123AF89007E8FB8 /* Assets.xcassets */; };
 		654C227C2123AF89007E8FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654C227A2123AF89007E8FB8 /* LaunchScreen.storyboard */; };
+		654C22842123AFC4007E8FB8 /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C22832123AFC4007E8FB8 /* myTableViewController.swift */; };
+		654C22862123B005007E8FB8 /* birdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C22852123B005007E8FB8 /* birdTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		654C22782123AF89007E8FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654C227B2123AF89007E8FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		654C227D2123AF89007E8FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654C22832123AFC4007E8FB8 /* myTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		654C22852123B005007E8FB8 /* birdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				654C22712123AF87007E8FB8 /* AppDelegate.swift */,
 				654C22732123AF87007E8FB8 /* ViewController.swift */,
 				654C22752123AF87007E8FB8 /* Main.storyboard */,
+				654C22832123AFC4007E8FB8 /* myTableViewController.swift */,
+				654C22852123B005007E8FB8 /* birdTableViewCell.swift */,
 				654C22782123AF89007E8FB8 /* Assets.xcassets */,
 				654C227A2123AF89007E8FB8 /* LaunchScreen.storyboard */,
 				654C227D2123AF89007E8FB8 /* Info.plist */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				654C22742123AF87007E8FB8 /* ViewController.swift in Sources */,
+				654C22842123AFC4007E8FB8 /* myTableViewController.swift in Sources */,
+				654C22862123B005007E8FB8 /* birdTableViewCell.swift in Sources */,
 				654C22722123AF87007E8FB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
